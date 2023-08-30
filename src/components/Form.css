@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(17, 17, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.heading2{
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signUp-form {
+    max-width: 450px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    color: blue;
+    margin-top: 1rem;
+}
+
+input[type=text],input[type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background-color:green;
+    opacity: 0.5;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+input[type=submit]:hover {
+   opacity: 1.5;
+}
+
+span {
+    color: rgb(214, 206, 200);
+    font-size: 14px;
+    text-align: left;
+}
